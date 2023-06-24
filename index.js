@@ -3,9 +3,25 @@ const inquirer = require ('inquirer');
 const fs = require ('fs');
 
 //WHEN I am prompted for text
-
-//THEN I can enter up to three characters
+  //THEN I can enter up to three characters
+const promptUser = () =>{
+  inquirer.prompt([{
+name: 'text',
+message: 'Please enter up to three chraracters for the logo text',
+validate: (input) => {
+  if (input.length > 3){
+    return 'Please only enter up to three characters.';
+  }
+  return true;
+ },
+},
+{
 //WHEN I am prompted for the text color
+
+}
+])
+}
+
 //THEN I can enter a color keyword (OR a hexadecimal number)
 //WHEN I am prompted for a shape
 //THEN I am presented with a list of shapes to choose from: circle, triangle, and square
