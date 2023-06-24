@@ -35,6 +35,10 @@ name: 'shapeColor',
 message: 'Please enter the color for the desire shape of your choosing (keyword or hexadecimal):',
 default: 'black',
 }
+
+//THEN I can enter a color keyword (OR a hexadecimal number)
+
+
 ])
 .then((answers) => {
   const { text, textColor, shape, shapeColor} = answers;
@@ -44,6 +48,11 @@ default: 'black',
 .catch((error) =>{
   console.log('An error occured:', error);
 });
+//WHEN I have entered input for all the prompts
+//THEN an SVG file is created named `logo.svg`
+//AND the output text "Generated logo.svg" is printed in the command line
+//WHEN I open the `logo.svg` file in a browser
+//THEN I am shown a 300x200 pixel image that matches the criteria I entered
 };
 const generateLogoSvg = (text, textColor, shape, shapeColor) => {
   const svgTemplate = `
@@ -65,9 +74,4 @@ const saveSvgToFile = (svgTemplate) => {
 
 promptUser();
 
-//THEN I can enter a color keyword (OR a hexadecimal number)
-//WHEN I have entered input for all the prompts
-//THEN an SVG file is created named `logo.svg`
-//AND the output text "Generated logo.svg" is printed in the command line
-//WHEN I open the `logo.svg` file in a browser
-//THEN I am shown a 300x200 pixel image that matches the criteria I entered
+
