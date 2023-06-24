@@ -1,7 +1,7 @@
 //GIVEN a command-line application that accepts user input
 const inquirer = require ('inquirer');
 const fs = require ('fs');
-const generateLogoSvg = require ('./shapes');
+const generateLogoSvg = require ('./lib/shapes');
 
 //WHEN I am prompted for text
   //THEN I can enter up to three characters
