@@ -29,10 +29,25 @@ default: 'white',
   message: 'Please choose a shape for the logo:',
   choices: ['circle', 'triangle', 'square'],
 },
-])
-}
-
 //WHEN I am prompted for the shape's color
+{
+name: 'shapeColor',
+message: 'Please enter the color for the desire shape of your choosing (keyword or hexadecimal):',
+default: 'black',
+}
+])
+.then((answers) => {
+  const { text, textColor, shape, shapeColor} = answers;
+  const svgTemplate = generateLogoSvg(text, textColor, shape, shapeColor);
+  saveSvgToFile(svgTemplate);
+})
+.catch((error) =>{
+  console.log('An error occured:', error);
+});
+};
+
+promptUser();
+
 //THEN I can enter a color keyword (OR a hexadecimal number)
 //WHEN I have entered input for all the prompts
 //THEN an SVG file is created named `logo.svg`
