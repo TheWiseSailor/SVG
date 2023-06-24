@@ -15,16 +15,23 @@ validate: (input) => {
   return true;
  },
 },
-{
 //WHEN I am prompted for the text color
 
-}
+{
+name: 'textColor',
+message: 'Please enter the color of your choosig, for the logo text (OR a hexadecimal number)', 
+default: 'white',
+},
+{
+  //THEN I am presented with a list of shapes to choose from: circle, triangle, and square
+  type:'list',
+  name: 'shape',
+  message: 'Please choose a shape for the logo:',
+  choices: ['circle', 'triangle', 'square'],
+},
 ])
 }
 
-//THEN I can enter a color keyword (OR a hexadecimal number)
-//WHEN I am prompted for a shape
-//THEN I am presented with a list of shapes to choose from: circle, triangle, and square
 //WHEN I am prompted for the shape's color
 //THEN I can enter a color keyword (OR a hexadecimal number)
 //WHEN I have entered input for all the prompts
