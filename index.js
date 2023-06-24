@@ -19,7 +19,7 @@ validate: (input) => {
 
 {
 name: 'textColor',
-message: 'Please enter the color of your choosig, for the logo text (OR a hexadecimal number)', 
+message: 'Please enter the color of your choosing, for the logo text (OR a hexadecimal number)', 
 default: 'white',
 },
 {
@@ -44,6 +44,23 @@ default: 'black',
 .catch((error) =>{
   console.log('An error occured:', error);
 });
+};
+const generateLogoSvg = (text, textColor, shape, shapeColor) => {
+  const svgTemplate = `
+  <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="${shapeColor}" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="${textColor}">${text}</text>
+</svg>
+  `;
+  return svgTemplate;
+};
+
+const saveSvgToFile = (svgTemplate) => {
+  fs.writeFile ('logo.svg', svgTemplate, (err) => {
+    if (err){
+      console.log ('Error while saving SVG file', err);
+    }
+  });
 };
 
 promptUser();
