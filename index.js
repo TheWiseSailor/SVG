@@ -55,12 +55,11 @@ default: 'black',
 //THEN I am shown a 300x200 pixel image that matches the criteria I entered
 };
 const generateLogoSvg = (text, textColor, shape, shapeColor) => {
-  const svgTemplate = `
-  <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="200" fill="${shapeColor}" />
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="${textColor}">${text}</text>
-</svg>
-  `;
+  const svgTemplate = '<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">' +
+    '<rect width="300" height="200" fill="' + shapeColor + '"></rect>' +
+    '<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="' + textColor + '">' + text + '</text>' +
+    '</svg>';
+
   return svgTemplate;
 };
 
