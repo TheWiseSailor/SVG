@@ -54,7 +54,7 @@ const saveSvgToFile = (svgTemplate) => {
       console.log('Error while saving SVG file', err);
     } else {
       console.log('Generated logo.svg');
-    }
+    };
   });
 };
 
