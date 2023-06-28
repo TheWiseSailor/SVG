@@ -12,7 +12,8 @@ Using the concepts of object-oriented programming (OOP), the SVG Logo Maker is a
 - [License](#license)💳
 - [Contact](#contact)📩
 - [Recording](#Recording)🎬
-- [Repository](Repository)📂
+- [Repository](#Repository)📂
+- [Tools](#Tools)🛠
 
 
 ## Key Features <a name="key-features"></a>
@@ -72,4 +73,11 @@ You may contact me by rudasilljay@gmail.com
 ## Recording <a name="Recording"></a>
 ## Repository <a name="Repository"></a>
 https://github.com/TheWiseSailor/SVG
+## Tools<a name="Tools"></a>
 
+
+  [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+  [![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
+  [![npm](https://badgen.net/badge/icon/npm?icon=npm&label)](https://npmjs.com/)
+  [![JavaScript](https://badgen.net/badge/icon/javascript?icon=javascript&label)](https://www.javascript.com/)
+  [![Node.js](https://badgen.net/badge/icon/nodejs?icon=nodejs&label)](https://nodejs.org/) <br>
