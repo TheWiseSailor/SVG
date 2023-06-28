@@ -9,6 +9,7 @@ Using the concepts of object-oriented programming (OOP), the SVG Logo Maker is a
 - [Installation](#installation)💻
 - [Usage](#usage)📲
 - [Contributing](#contributing)📜
+- [Sources](#sources)🔎
 - [License](#license)💳
 - [Contact](#contact)📩
 - [Recording](#Recording)🎬
