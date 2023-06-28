@@ -11,6 +11,9 @@ Using the concepts of object-oriented programming (OOP), the SVG Logo Maker is a
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Recording](#Recording)
+- [Repository](Repository)
+
 
 ## Key Features <a name="key-features"></a>
 
@@ -24,7 +27,23 @@ Using the concepts of object-oriented programming (OOP), the SVG Logo Maker is a
 
 - The tool offers a wide range of assistance for adding text to logo designs. To improve the typography of their logos, users may select from a broad variety of fonts, alter text size, alignment, and spacing, and add different text effects like outlines, shadows, and curves.
 
- - After the logo design is finished, users may export their work as SVG files, making it simple to integrate it with other design tools or platforms. In order to facilitate cooperation and criticism, users may also send their logos directly from the application via email or social media.e.
- 
+ - After the logo design is finished, users may export their work as SVG files, making it simple to integrate it with other design tools or platforms. In order to facilitate cooperation and criticism, users may also send their logos directly from the application via email or social media.
+
 ## Installation <a name="installation"></a>
  
+ To install and run the SVG Logo Maker, follow these steps: <br>
+
+ 1. Clone the repo: NOTE   :changing the name of the repo once im done with all this
+ 2. Navigate to the project directory: `cd svg-logo-maker`
+ 3. Install the necessary dependencies: `npm install`
+ 4. Start the application: `npm start`
+ 5. Open your web browser and access the application at [http://localhost:3000](http://localhost:3000)
+
+ 
+## Usage <a name="usage"></a>
+## Contributing <a name="contributing"></a>
+## License <a name="license"></a>
+## Contact <a name="contact"></a>
+## Recording <a name="Recording"></a>
+## Repository <a name="Repository"></a>
+
