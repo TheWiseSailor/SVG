@@ -73,6 +73,9 @@ Any contributions are more than welcome to the SVG Logo Maker.<br> If you would 
 You may contact me by rudasilljay@gmail.com
 ## Recording <a name="Recording"></a>
 
+[Untitled_ Jun 28_ 2023 4_42 PM.webm](https://github.com/TheWiseSailor/SVG-Logo-Maker/assets/68026214/3c1516a3-fc86-45c1-ba2d-78114dde8cf0)
+
+
 https://drive.google.com/file/d/1DRDiTYHPe6ZsCaQJUeS0EIowlWhgmDfg/view
 
 ## Repository <a name="Repository"></a>
