@@ -32,7 +32,7 @@ Using the concepts of object-oriented programming (OOP), the SVG Logo Maker is a
  
  To install and run the SVG Logo Maker, follow these steps: <br>
 
- 1. Clone the repo: NOTE   :changing the name of the repo once im done with all this.
+ 1. Clone the repo: https://github.com/UserName/SVG-Logo-Maker.git
  2. Navigate to the project directory: `cd svg-logo-maker`.
  3. Install the necessary dependencies: `npm install`.
  4. Start the application: `npm start`.
