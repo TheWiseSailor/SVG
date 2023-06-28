@@ -33,17 +33,44 @@ Using the concepts of object-oriented programming (OOP), the SVG Logo Maker is a
  
  To install and run the SVG Logo Maker, follow these steps: <br>
 
- 1. Clone the repo: NOTE   :changing the name of the repo once im done with all this
- 2. Navigate to the project directory: `cd svg-logo-maker`
- 3. Install the necessary dependencies: `npm install`
- 4. Start the application: `npm start`
- 5. Open your web browser and access the application at [http://localhost:3000](http://localhost:3000)
+ 1. Clone the repo: NOTE   :changing the name of the repo once im done with all this.
+ 2. Navigate to the project directory: `cd svg-logo-maker`.
+ 3. Install the necessary dependencies: `npm install`.
+ 4. Start the application: `npm start`.
+ 5. Open your web browser and access the application at [http://localhost:3000](http://localhost:3000).
 
  
 ## Usage <a name="usage"></a>
+To install and run the SVG Logo Maker, follow these steps: <br>
+1. Launch the SVG Logo maker application.
+2. Familiarize yourself with the user interface and available tools.
+3. Select a shape from the shape library or create your own custom shape,
+4. Add text elements to your logo and customize their appearance.
+5. Arrange and layer the elements to achieve the desired composition.
+6. Export your logo as an SVG file or share it directly from the application.
+
 ## Contributing <a name="contributing"></a>
+
+Any contributions are more than welcome to the SVG Logo Maker.<br> If you would like to contribute, folow these steps: <br>
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b my-feature`.
+3. Make your modifications and commit them: `git commit -m "Add new feature"`.
+4. Push your branch to the remote repository: `git push origin my-feature`.
+5. Open a pull request, providing a detailed description of your changes.
+
+
+## Sources<a name="Sources"></a>
+- https://developer.mozilla.org/en-US/
+- https://www.youtube.com/
+- https://stackoverflow.com/
+- https://www.npmjs.com/package/inquirer/v/8.2.4
+- https://www.npmjs.com/package/jest 
+
+
 ## License <a name="license"></a>
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Contact <a name="contact"></a>
+You may contact me by rudasilljay@gmail.com
 ## Recording <a name="Recording"></a>
 ## Repository <a name="Repository"></a>
 
