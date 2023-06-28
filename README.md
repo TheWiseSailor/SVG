@@ -21,8 +21,6 @@ Using the concepts of object-oriented programming (OOP), the SVG Logo Maker is a
 
 -  SVG Support: The program fully supports the Scalable Vector Graphics (SVG) format, making it possible to generate logos that are scalable, independent of resolution, and appropriate for a variety of uses, such as web design, printing, and branding.
 
-- Rectangles, circles, polygons, and more are among the many pre-defined shapes available in the SVG Logo Maker's extensive shape library. These forms are simple for users to pick out and alter, and they may combine them to make original and eye-catching logo designs.
-
 - Options for customization: Users have total control over every facet of their logo's creation. To create the desired visual impact, they may experiment with different effects, add gradients and patterns, and change the size, position, rotation, and color of individual pieces.
 
 - The tool offers a wide range of assistance for adding text to logo designs. To improve the typography of their logos, users may select from a broad variety of fonts, alter text size, alignment, and spacing, and add different text effects like outlines, shadows, and curves.
@@ -73,4 +71,5 @@ Any contributions are more than welcome to the SVG Logo Maker.<br> If you would 
 You may contact me by rudasilljay@gmail.com
 ## Recording <a name="Recording"></a>
 ## Repository <a name="Repository"></a>
+https://github.com/TheWiseSailor/SVG
 
