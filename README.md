@@ -75,8 +75,6 @@ You may contact me by rudasilljay@gmail.com
 
 
 
-https://drive.google.com/file/d/1DRDiTYHPe6ZsCaQJUeS0EIowlWhgmDfg/view 
-
 ## Repository <a name="Repository"></a>
 https://github.com/TheWiseSailor/SVG
 ## Tools<a name="Tools"></a>
