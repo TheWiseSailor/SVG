@@ -80,4 +80,8 @@ https://github.com/TheWiseSailor/SVG
   [![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
   [![npm](https://badgen.net/badge/icon/npm?icon=npm&label)](https://npmjs.com/)
   [![JavaScript](https://badgen.net/badge/icon/javascript?icon=javascript&label)](https://www.javascript.com/)
-  [![Node.js](https://badgen.net/badge/icon/nodejs?icon=nodejs&label)](https://nodejs.org/) <br>
+  [![Node.js](https://badgen.net/badge/icon/nodejs?icon=nodejs&label)](https://nodejs.org/) 
+  [![Jest](https://img.shields.io/badge/Jest-Test%20Coverage-green)](https://jestjs.io/)
+  [![Inquirer](https://img.shields.io/badge/Inquirer-8.2.4-blue)](https://github.com/SBoudrias/Inquirer.js)
+
+
